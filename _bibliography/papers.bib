@@ -1,72 +1,251 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@inproceedings{10.1145/3308558.3313564,
+abbr = {CommunityGAN},
+selected = {true},
+bibtex_show = {true},
+arxiv = {1901.06631},
+pdf = {communitygan.pdf},
+code = {https://github.com/SamJia/CommunityGAN},
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+author = {Jia, Yuting and Zhang, Qinqin and Zhang, Weinan and Wang, Xinbing},
+title = {CommunityGAN: Community Detection with Generative Adversarial Nets},
+year = {2019},
+isbn = {9781450366748},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3308558.3313564},
+doi = {10.1145/3308558.3313564},
+abstract = {Community detection refers to the task of discovering groups of vertices sharing similar properties or functions so as to understand the network data. With the recent development of deep learning, graph representation learning techniques are also utilized for community detection. However, the communities can only be inferred by applying clustering algorithms based on learned vertex embeddings. These general cluster algorithms like K-means and Gaussian Mixture Model cannot output much overlapped communities, which have been proved to be very common in many real-world networks. In this paper, we propose CommunityGAN, a novel community detection framework that jointly solves overlapping community detection and graph representation learning. First, unlike the embedding of conventional graph representation learning algorithms where the vector entry values have no specific meanings, the embedding of CommunityGAN indicates the membership strength of vertices to communities. Second, a specifically designed Generative Adversarial Net (GAN) is adopted to optimize such embedding. Through the minimax competition between the motif-level generator and discriminator, both of them can alternatively and iteratively boost their performance and finally output a better community structure. Extensive experiments on synthetic data and real-world tasks demonstrate that CommunityGAN achieves substantial community detection performance gains over the state-of-the-art methods.},
+booktitle = {WWW '19: The World Wide Web Conference},
+pages = {784–794},
+numpages = {11},
+keywords = {Community Detection, Generative Adversarial Nets, Graph Representation Learning},
+location = {San Francisco, CA, USA},
+series = {WWW '19}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@article{DBLP:journals/corr/abs-1904-01399,
+abbr      = {Convex Approximation},
+selected  = {true},
+bibtex_show = {true},
+arxiv = {1904.01399},
+pdf = {convex_hull_approximation.pdf},
+
+  author    = {Yuting Jia and
+               Haiwen Wang and
+               Shuo Shao and
+               Huan Long and
+               Yunsong Zhou and
+               Xinbing Wang},
+  title     = {On Geometric Structure of Activation Spaces in Neural Networks},
+  journal   = {arXiv Preprint},
+  volume    = {abs/1904.01399},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1904.01399},
+  eprinttype = {arXiv Preprint},
+  eprint    = {1904.01399},
+  timestamp = {Wed, 24 Apr 2019 12:21:25 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1904-01399.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{10.1145/3459637.3482003,
+abbr      = {GAKG},
+selected  = {true},
+bibtex_show = {true},
+pdf = {gakg.pdf},
+code = {https://github.com/davendw49/gakg},
+website = {https://gakg.acemap.info/#/},
+
+author = {Deng, Cheng and Jia, Yuting and Xu, Hui and Zhang, Chong and Tang, Jingyao and Fu, Luoyi and Zhang, Weinan and Zhang, Haisong and Wang, Xinbing and Zhou, Chenghu},
+title = {GAKG: A Multimodal Geoscience Academic Knowledge Graph},
+year = {2021},
+isbn = {9781450384469},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3459637.3482003},
+abstract = {The research of geoscience plays a strong role in helping people gain a better understanding of the Earth. To effectively represent the knowledge (KG) from enormous geoscience research papers, knowledge graphs can be a powerful means. In the face of enormous geoscience research papers, knowledge graphs can be a powerful means to manage the relationships of data and integrate knowledge extracted from them. However, the existing geoscience KGs mainly focus on the external connection between concepts, whereas the potential abundant information contained in the internal multimodal data of the paper is largely overlooked for more fine-grained knowledge mining. To this end, we propose GAKG, a large-scale multimodal academic KG based on 1.12 million papers published in various geoscience-related journals. In addition to the bibliometrics elements, we also extracted the internal illustrations, tables, and text information of the articles, and dig out the knowledge entities of the papers and the era and spatial attributes of the articles, coupling multimodal academic data and features. Specifically, GAKG realizes knowledge entity extraction under our proposed Human-In-the-Loop framework, the novelty of which is to combine the techniques of machine reading and information retrieval with manual annotation of geoscientists in the loop. Considering the fact that literature of geoscience often contains more abundant illustrations and time scale information compared with that of other disciplines, we extract all the geographical information and era from the geoscience papers' text and illustrations, mapping papers to the atlas and chronology. Based on GAKG, we build several knowledge discovery benchmarks for finding geoscience communities and predicting potential links. GAKG and its services have been made publicly available and user-friendly.},
+booktitle = {CIKM '21: Proceedings of the 30th ACM International Conference on Information &amp; Knowledge Management},
+pages = {4445–4454},
+numpages = {10}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{DBLP:journals/corr/abs-2202-10163,
+abbr      = {DeepShovel},
+bibtex_show = {true},
+arxiv = {2202.10163},
+pdf = {deepshovel.pdf},
+website = {https://deepshovel.acemap.cn/},
+
+  author    = {Shao Zhang and
+               Yuting Jia and
+               Hui Xu and
+               Ying Wen and
+               Dakuo Wang and
+               Xinbing Wang},
+  title     = {DeepShovel: An Online Collaborative Platform for Data Extraction in
+               Geoscience Literature with {AI} Assistance},
+  journal   = {arXiv Preprint},
+  volume    = {abs/2202.10163},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2202.10163},
+  eprinttype = {arXiv Preprint},
+  eprint    = {2202.10163},
+  timestamp = {Tue, 01 Mar 2022 18:26:00 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2202-10163.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{DBLP:journals/corr/abs-2101-05137,
+abbr      = {MAGIC},
+bibtex_show = {true},
+arxiv = {2101.05137},
+pdf = {magic.pdf},
+
+  author    = {Shuhan Yan and
+               Yuting Jia and
+               Xinbing Wang},
+  title     = {Overlapping Community Detection in Temporal Text Networks},
+  journal   = {arXiv Preprint},
+  volume    = {abs/2101.05137},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2101.05137},
+  eprinttype = {arXiv Preprint},
+  eprint    = {2101.05137},
+  timestamp = {Fri, 22 Jan 2021 15:16:00 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2101-05137.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{DBLP:conf/aaai/WangWWLJ0W20,
+abbr      = {AND},
+bibtex_show = {true},
+arxiv = {2002.09803},
+pdf = {and.pdf},
+
+  author    = {Haiwen Wang and
+               Ruijie Wang and
+               Chuan Wen and
+               Shuhao Li and
+               Yuting Jia and
+               Weinan Zhang and
+               Xinbing Wang},
+  title     = {Author Name Disambiguation on Heterogeneous Information Network with
+               Adversarial Representation Learning},
+  booktitle = {{AAAI} '20: The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, New York, NY, USA,
+               February 7-12, 2020},
+  pages     = {238--245},
+  publisher = {{AAAI} Press},
+  year      = {2020},
+  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/5356},
+  timestamp = {Mon, 07 Mar 2022 16:58:13 +0100},
+  biburl    = {https://dblp.org/rec/conf/aaai/WangWWLJ0W20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/aaai/HongWJZW19,
+abbr      = {Academic Reader},
+bibtex_show = {true},
+pdf = {academic_reader.pdf},
+
+  author    = {Yining Hong and
+               Jialu Wang and
+               Yuting Jia and
+               Weinan Zhang and
+               Xinbing Wang},
+  title     = {Academic Reader: An Interactive Question Answering System on Academic
+               Literatures},
+  booktitle = {{AAAI} '19: The Thirty-Third {AAAI} Conference on Artificial Intelligence, Honolulu, Hawaii,
+               USA, January 27 - February 1, 2019},
+  pages     = {9855--9856},
+  publisher = {{AAAI} Press},
+  year      = {2019},
+  url       = {https://doi.org/10.1609/aaai.v33i01.33019855},
+  doi       = {10.1609/aaai.v33i01.33019855},
+  timestamp = {Tue, 02 Feb 2021 07:59:52 +0100},
+  biburl    = {https://dblp.org/rec/conf/aaai/HongWJZW19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{10.1145/3269206.3269252,
+abbr      = {AceKG},
+bibtex_show = {true},
+arxiv = {1807.08484},
+pdf = {acekg.pdf},
+website = {https://archive.acemap.info/acekg},
+
+author = {Wang, Ruijie and Yan, Yuchen and Wang, Jialu and Jia, Yuting and Zhang, Ye and Zhang, Weinan and Wang, Xinbing},
+title = {AceKG: A Large-Scale Knowledge Graph for Academic Data Mining},
+year = {2018},
+isbn = {9781450360142},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3269206.3269252},
+doi = {10.1145/3269206.3269252},
+abstract = {Most existing knowledge graphs (KGs) in academic domains suffer from problems of insufficient multi-relational information, name ambiguity and improper data format for large-scale machine processing. In this paper, we present AceKG, a new large-scale KG in academic domain. AceKG not only provides clean academic information, but also offers a large-scale benchmark dataset for researchers to conduct challenging data mining projects including link prediction, community detection and scholar classification. Specifically, AceKG describes 3.13 billion triples of academic facts based on a consistent ontology, including necessary properties of papers, authors, fields of study, venues and institutes, as well as the relations among them. To enrich the proposed knowledge graph, we also perform entity alignment with existing databases and rule-based inference. Based on AceKG, we conduct experiments of three typical academic data mining tasks and evaluate several state-of-the-art knowledge embedding and network representation learning approaches on the benchmark datasets built from AceKG. Finally, we discuss promising research directions that benefit from AceKG.},
+booktitle = {Proceedings of the 27th ACM International Conference on Information and Knowledge Management},
+pages = {1487–1490},
+numpages = {4},
+keywords = {data mining, benchmarking, knowledge graph},
+location = {Torino, Italy},
+series = {CIKM '18}
+}
+
+@inproceedings{DBLP:conf/icdm/HeHLSJW16,
+abbr      = {MHT},
+bibtex_show = {true},
+arxiv = {1610.00219},
+pdf = {mht.pdf},
+
+  author    = {Junxian He and
+               Ying Huang and
+               Changfeng Liu and
+               Jiaming Shen and
+               Yuting Jia and
+               Xinbing Wang},
+  editor    = {Carlotta Domeniconi and
+               Francesco Gullo and
+               Francesco Bonchi and
+               Josep Domingo{-}Ferrer and
+               Ricardo Baeza{-}Yates and
+               Zhi{-}Hua Zhou and
+               Xindong Wu},
+  title     = {Text Network Exploration via Heterogeneous Web of Topics},
+  booktitle = {{IEEE} International Conference on Data Mining Workshops, {ICDM} Workshops
+               2016, December 12-15, 2016, Barcelona, Spain},
+  pages     = {99--106},
+  publisher = {{IEEE} Computer Society},
+  year      = {2016},
+  url       = {https://doi.org/10.1109/ICDMW.2016.0022},
+  doi       = {10.1109/ICDMW.2016.0022},
+  timestamp = {Wed, 16 Oct 2019 14:14:51 +0200},
+  biburl    = {https://dblp.org/rec/conf/icdm/HeHLSJW16.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-2010-04348,
+abbr      = {HGMN},
+bibtex_show = {true},
+arxiv = {2010.04348},
+pdf = {hgmn.pdf},
+
+  author    = {Hui Xu and
+               Liyao Xiang and
+               Youmin Le and
+               Xiaoying Gan and
+               Yuting Jia and
+               Luoyi Fu and
+               Xinbing Wang},
+  title     = {High-Order Relation Construction and Mining for Graph Matching},
+  journal   = {arXiv Preprint},
+  volume    = {abs/2010.04348},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2010.04348},
+  eprinttype = {arXiv Preprint},
+  eprint    = {2010.04348},
+  timestamp = {Tue, 24 Aug 2021 15:57:19 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2010-04348.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }

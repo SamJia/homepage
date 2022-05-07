@@ -1,14 +1,14 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Zhang":
+  - firstname: ["Shao"]
+    url: https://shaozhang.info/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Wang":
+  - firstname: ["Xinbing"]
+    url: https://www.cs.sjtu.edu.cn/~wang-xb/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Deng":
+  - firstname: ["Cheng"]
+    url: https://big-cheng.com/
 
 "Bach": 
   - firstname: ["Johann Sebastian", "J. S."]
