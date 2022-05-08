@@ -4,5 +4,5 @@ title: blog
 nav: true
 permalink: /blog-redirect
 redirect_to:
-  - https://www.ytjia.xyz/blog
+  - https://www.ytjia.xyz/blog/
 ---
